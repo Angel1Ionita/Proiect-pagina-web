@@ -1,0 +1,106 @@
+{
+  "table": [
+    {
+      "nume": "Joc de sah si table model antic",
+      "pret": 100,
+      "img": "tabla1.jpg",
+      "id": 1
+    },
+    {
+      "nume": "Tabla sah metal -Alama albastru",
+      "pret": 200,
+      "img": "tabla2.jpg",
+      "id": 2
+    },
+    {
+      "nume": "Tabla de sah din lemn Artar no.7 - 60 mm - Paris \"Deluxe\"",
+      "pret": 300,
+      "img": "tabla3.jpg",
+      "id": 3
+    },
+    {
+      "nume": "Tabla sah din carton pliabila in 4 - 40x40cm, 45mm",
+      "pret": 400,
+      "img": "tabla4.jpg",
+      "id": 4
+    },
+    {
+      "nume": "Tabla de sah electronica DGT Smart Board",
+      "pret": 500,
+      "img": "tabla5.jpg",
+      "id": 5
+    }
+  ],
+  "piese": [
+    {
+      "nume": "Piese plastic Staunton 6 Turneu",
+      "pret": 10,
+      "img": "piese1.jpg",
+      "id": 6
+    },
+    {
+      "nume": "Piese de sah din plastic no. 6 - light",
+      "pret": 20,
+      "img": "piese2.jpg",
+      "id": 7
+    },
+    {
+      "nume": "Piese plastic Evul Mediu",
+      "pret": 30,
+      "img": "piese3.jpg",
+      "id": 8
+    },
+    {
+      "nume": "Piese lemn Staunton 7 OXFORD Negru",
+      "pret": 40,
+      "img": "piese4.jpg",
+      "id": 9
+    },
+    {
+      "nume": "Piese sah din Ceramica - Imperiul Roman",
+      "pret": 50,
+      "img": "piese5.jpg",
+      "id": 10
+    }
+  ],
+  "ceasuri": [
+    {
+      "nume": "Ceas de sah DGT Easy Plus",
+      "pret": 120,
+      "img": "ceas1.jpg",
+      "id": 11
+    },
+    {
+      "nume": "Ceas de sah digital DGT 3000",
+      "pret": 140,
+      "img": "ceas2.jpg",
+      "id": 12
+    },
+    {
+      "nume": "Ceas DGT de calatorie",
+      "pret": 160,
+      "img": "ceas3.jpg",
+      "id": 13
+    },
+    {
+      "nume": "Ceas de sah digital Silver",
+      "pret": 180,
+      "img": "ceas4.jpg",
+      "id": 14
+    },
+    {
+      "nume": "Ceas de sah DGT 3000, editie limitata",
+      "pret": 200,
+      "img": "ceas5.jpg",
+      "id": 15
+    }
+  ],
+  "comanda": [
+    {
+      "nume": "Joc de sah si table model antic",
+      "pret": 100,
+      "cantitate": 5,
+      "id": 1
+    }
+  ]
+}

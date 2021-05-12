@@ -12,21 +12,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Magazin de sah</title>
-  </head>
-  <body onload="loadElementsPiese()">
-    <script src="script.js"></script>
-      <header class="header">
-        <h1 class="title">Magazinul de Sah</h1>
-      </header>
-      <nav class="menu">
-        <a class="menu-item"href="tables.html">Table</a>
-        <a class="menu-item menu-item-active" href="pieces.html">Piese</a>
-        <a class="menu-item" href="clocks.html">Ceasuri</a>
-        <a class="menu-item" href="coscumparaturi.html"> Cos de cumparaturi</a>
-      </nav>
-      <div class="search-bar">Cauta produsul dorit: <input type="text" class="search-bar-in" id="search-bar-in" placeholder="Cauta..." name="search" /><button onclick="searchEnginePiese()" class="search-button">Cauta</button></div>
-      <div class="grid-container" id="grid-container">
+</head>
 
-    </div>    
-    </body>
+<body onload="displayCosCumparaturi()">
+    <script src="script.js"></script>
+    <header class="header">
+        <h1 class="title">Magazinul de Sah</h1>
+    </header>
+    <nav class="menu">
+        <a class="menu-item" href="tables.html">Table</a>
+        <a class="menu-item" href="pieces.html">Piese</a>
+        <a class="menu-item" href="clocks.html"> Ceasuri</a>
+        <a class="menu-item menu-item-active" href="coscumparaturi.html"> Cos de cumparaturi</a>
+    </nav>
+    <div id="lista-cumparaturi">
+        
+    </div>
+</body>
+
 </html>
