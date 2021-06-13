@@ -324,13 +324,10 @@ function displayCosCumparaturi(){
                     var id = data[i-1].id;
                     data[i-1].cantitate++;
                     var editCantitate={
-                        nume: data[i-1].nume,
-                        pret: data[i-1].pret,
-                        cantitate: data[i-1].cantitate,
-                        id: data[i-1].id
+                        cantitate: data[i-1].cantitate
                     };
                     fetch('http://localhost:3000/comanda/' + id, {
-                        method: 'put',
+                        method: 'patch',
                         headers: {
                             'Content-Type': 'application/json'
                         },
@@ -345,13 +342,10 @@ function displayCosCumparaturi(){
                     var id = data[i-1].id;
                     data[i-1].cantitate--;
                     var editCantitate={
-                        nume: data[i-1].nume,
-                        pret: data[i-1].pret,
-                        cantitate: data[i-1].cantitate,
-                        id: data[i-1].id
+                        cantitate: data[i-1].cantitate
                     };
                     fetch('http://localhost:3000/comanda/' + id, {
-                        method: 'put',
+                        method: 'patch',
                         headers: {
                             'Content-Type': 'application/json'
                         },
